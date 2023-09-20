@@ -46,8 +46,6 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Rubik', sans-serif;
 
 }
-.nav a:hover{
-   
  
    border-bottom: 3px solid black;
    transition: 40s !important;
