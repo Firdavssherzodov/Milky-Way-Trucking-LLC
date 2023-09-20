@@ -1,11 +1,11 @@
 <template>
   <div>
-    <head1/>
+ <router-view></router-view>
   </div>
 </template>
 
 <script setup>
-import head1 from '../src/components/Header.vue';
+
 </script>
 
 <style  scoped>
