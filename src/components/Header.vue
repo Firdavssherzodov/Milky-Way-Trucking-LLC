@@ -159,8 +159,6 @@ transition: 2s !important;
 
 .dropdown-menu,.dropdown-item {
     font-size: 18px;
-    background: none;
-    backdrop-filter: blur(14px);
 }
 .diva {
     margin-top: 4vh;
