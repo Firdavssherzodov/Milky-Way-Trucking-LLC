@@ -64,10 +64,9 @@
 .navgtion {
     width: 100%;
     height: 10vh;
-    background-color: white;
-    position: sticky;
-    bottom: 100px;
-    transition: 2s;
+    background-color:rgb(255, 255, 255);
+position: sticky;
+bottom: 100px;
 }
 
 .nav {
@@ -110,16 +109,7 @@
 .dropdown-menu li {
     padding: 5px;
     font-size: 18px;
-    background: none;
 }
-
-.dropdown-menu li:hover {
-    padding-top: 4px;
-    border-bottom: 3px solid black;
-    transition: 40s !important;
-
-}
-
 .diva {
     width: 100%;
     height: 70vh;
