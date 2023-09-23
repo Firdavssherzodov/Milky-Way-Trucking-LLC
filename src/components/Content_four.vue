@@ -32,6 +32,12 @@
 <p>Our local teams specialise in clearing cargo and <br> getting quicker customs clearances for your <br> perishable goods.</p>
 </div>
 
+<div class="border">
+    <img src="https://www.maersk.com/~/media_sc9/maersk/solutions/transportation-services/cross-border-rail-transportation/cross-border-rail-transportation_720x405.png?w=1000&hash=BAB7C9C96265FAB872FEE8A16A51E067" alt="">
+<h2>Maersk Customs Services</h2>
+<p>Our local teams specialise in clearing cargo and <br> getting quicker customs clearances for your <br> perishable goods.</p>
+</div>
+
     </divv>
 </template>
 
@@ -63,10 +69,10 @@
     box-shadow: 0 0 10px 0;
    margin-top: -5px;
    transform: skew(-1.5deg);
-   transition: 0.5s;
+   transition: 0.7s;
    cursor: pointer;
 }
-   
+
 img{
     width: 100%;
     height: 65%;
