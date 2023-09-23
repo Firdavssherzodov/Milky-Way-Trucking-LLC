@@ -66,10 +66,7 @@
    transition: 0.5s;
    cursor: pointer;
 }
-img:hover{
-    
    
-}
 img{
     width: 100%;
     height: 65%;
