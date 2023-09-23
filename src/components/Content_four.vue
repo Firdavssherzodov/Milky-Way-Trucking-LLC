@@ -70,7 +70,6 @@
    margin-top: -5px;
    transform: skew(-1.5deg);
    transition: 0.7s;
-   cursor: pointer;
 }
 
 img{
