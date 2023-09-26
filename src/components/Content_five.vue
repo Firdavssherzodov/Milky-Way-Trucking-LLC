@@ -20,7 +20,7 @@
                             <div class="mail_section">
                                 <input type="" class="mail_text" placeholder="Name" name="Name">
                                 <input type="" class="mail_text" placeholder="Phone Number" name="Phone Number">
-                                <input type="" class="mail_text" placeholder="Name" name="Name">
+                                <input type="" class="mail_text" placeholder="Email" name="Name">
                                 <textarea class="massage_text" placeholder="Email" rows="5" id="comment"
                                     name="Email"></textarea>
                                      <button class="btn btn-dark" style="background-color: #201f33;">SUBSCRIBE</button>
@@ -42,7 +42,7 @@
                         <div class="footer_menu">
                             <ul>
                                 <li class="active"><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
+                            <router-link to="/content1">   <li><a href="#">About</a></li> </router-link> 
                                 <li><a href="#">Blog</a></li>
                                 <li><a href="#">Contact</a></li>
                             </ul>
