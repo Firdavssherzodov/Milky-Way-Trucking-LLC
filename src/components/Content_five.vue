@@ -106,6 +106,7 @@ h1 {
 p {
     font-family: 'Ubuntu', sans-serif !important;
     font-family: 'Mukta', sans-serif !important;
+    
 }
 /* .diva{
     width: 142vh;

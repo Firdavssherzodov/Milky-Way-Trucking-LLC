@@ -1,3 +1,4 @@
+
 <template>
     <div class="conterner">
 <div class="div1">
@@ -25,7 +26,6 @@
 </template>
 
 <script setup>
-
 </script>
 
 <style scoped>

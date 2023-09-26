@@ -1,5 +1,6 @@
 <template>
-    <div class="diva">
+    <head1/>
+    <div class="diva" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="linear" >
         <div class="div1">
             <h1 class="p-4">Innovating together to tackle <br> sustainability challenges</h1>
             <p >Collaboration is key to mutually achieving our ambitious sustainability goals. For <br> Maersk, the ask is
@@ -18,7 +19,7 @@
 </template>
 
 <script setup>
-
+ 
 </script>
 
 <style scoped>

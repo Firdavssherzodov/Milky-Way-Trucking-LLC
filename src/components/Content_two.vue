@@ -1,5 +1,6 @@
 <template>
-    <div class="contaner">
+    
+    <div class="contaner" data-aos="fade-up" data-aos-duration="800" data-aos-easing="linear" >
         <div>
             <img src="https://www.maersk.com/~/media_sc9/maersk/shared-files/icons/positive/shrink-connectivity_pictogram_v1.svg?w=1000&hash=D1D765A7681C88EED45EE7D11743A0E5"
                 alt="">
@@ -46,7 +47,7 @@
 </template>
 
 <script setup>
-
+ 
 </script>
 
 <style  scoped>
@@ -71,6 +72,7 @@ h4 {
     font-size: 27px;
     padding: 1vh;
     padding-left: 7vh;
+   
 }
 
 p {
