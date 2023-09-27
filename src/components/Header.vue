@@ -1,42 +1,27 @@
 <template>
     
-    <div class="navgtion" id="scrol">
+    <div class="navgtion " id="scrol">
         <nav class="nav m-auto">
             <router-link to="/">
-            <div class="d-flex">
+            <div class="d-flex ">
              
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo9iYo-IQstMGJb1ufD_LvMgSngdQ-8cP-ozHllSMI9lvRO4WL-SfIYfDAYjAzZbQyClI&usqp=CAU"
                     alt="" class="img"><h1 class="h1">Trucking</h1>
            
             </div>
         </router-link> 
-         <router-link to="content1">  <a class="a" href="#">Prices</a> </router-link> 
+         <router-link to="content1">  <a class="a" href="#">Home</a> </router-link> 
 
-            <li class="nav-item dropdown ">
-                <a class="nav-link dropdown-toggle a" href="#" id="navbarDropdown" role="" data-mdb-toggle="dropdown"
-                    aria-expanded="false">
-              <router-link to="content2">   Book  </router-link>   
-                </a>
-                <!-- Dropdown menu -->
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item py-3 ps-2" href="#">Action</a></li>
-                    <hr class="dropdown-divider dark" />
-                    <li><a class="dropdown-item py-3 ps-2" href="#">Another action</a></li>
-                    <hr class="dropdown-divider" />
-                    <li><a class="dropdown-item py-3" href="#">Something else here</a></li>
-                    <li>
-                        <hr class="dropdown-divider" />
-                    </li>
-                    <li><a class="dropdown-item py-3" href="#">Something else here</a></li>
-                    <li>
-                        <hr class="dropdown-divider" />
-                    </li>
-                    <li><a class="dropdown-item py-3" href="#">Something else here</a></li>
-                </ul>
-            </li>
-            <a class="a" href="#">Tracking</a>
+          
+               
+               
+              <router-link to="content2"><a class="a" href=""> About us </a>  </router-link>   
+       
+              
+                 
+            <a class="a" href="#">Contact us</a>
             <a class="a" href="#"> Schedules</a>
-            <a class="a" href="#">Logistics solutions</a>
+           
         </nav>
 
     </div>
@@ -48,7 +33,7 @@
 
 <script setup>
 
-import Header from '../components/Header.vue';
+
 // import { ref,onMounted } from 'vue';
 // let num = ref(1000)
  
@@ -103,7 +88,7 @@ import Header from '../components/Header.vue';
     padding: 0;
     box-sizing: border-box;
     font-family: 'Mukta', sans-serif;
-    font-family: 'Poppins', sans-seri;
+    font-family: 'Poppins', 'sans-seri';
     font-family: 'Rubik', sans-serif !important;
 }
 
@@ -139,7 +124,7 @@ transition: 2s !important;
 
 .nav .a:hover {
     border-bottom: 3px solid black;
-    transition: 40s !important;
+    transition: 4s !important;
 }
 
 .img {
@@ -160,9 +145,57 @@ transition: 2s !important;
 
 }
 
-.dropdown-menu,.dropdown-item {
-    font-size: 18px;
+@media (min-width:320px) and (max-width:  576px) {
+    .navgtion {
+    width: 100%;
+    height: 3vh;
 }
+ 
+
+.nav {
+    width: 50vh !important;
+    height: 5vh !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: auto;
+}
+
+.nav .a {
+    color: black;
+    font-size: 0.7rem;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.nav .a:active {
+    border-bottom: 3px solid black;
+    transition: 4s !important;
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+}
+
+.d-flex {
+    align-items: center;
+    margin-left: -8vh;
+    width: 10vh;
+    justify-content: space-around;
+}
+
+.h1 {
+    font-weight: 500;
+    color: rgb(52, 52, 52);
+ display: none;
+}
+}
+@media (min-width: 576px) and (max-width: 768px){
+    
+}
+ 
 
 
 

@@ -1,9 +1,9 @@
 <template>
-    <div class="diva mt-5">
+    <!-- <div class="diva mt-5"> -->
 
         <!-- header section end -->
         <!-- contact section start -->
-        <div class="contact_section layout_padding" >
+        <!-- <div class="contact_section layout_padding" >
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6 padding_0">
@@ -30,7 +30,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- //// -->
         <!-- contact section end -->
         <!-- footer section start -->
@@ -108,15 +108,12 @@ p {
     font-family: 'Mukta', sans-serif !important;
     
 }
-/* .diva{
-    width: 142vh;
-    margin-left: 29vh;
-    border-top-left-radius: 2.5vh;
-    border-bottom-right-radius: 2.5vh;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-     
-} */
+
+ @media (min-width:320px) and (max-width: 576px) {
+    .footer_section{
+    margin-top: 156.5vh;
+ }
+ }
 
 
 </style>
