@@ -1,6 +1,6 @@
 
 <template>
-<Header></Header>
+ 
 
     <div class="conterner">
 <div class="div1">
@@ -28,7 +28,7 @@
 </template>
 
 <script setup>
-import Header from './header.vue';
+ 
 </script>
 
 <style scoped>
