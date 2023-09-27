@@ -17,8 +17,6 @@
  
 </script>
 
-<style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Poppins:wght@400;500;600;700&family=Rubik&family=Ubuntu:wght@300&display=swap');
 .diva {
     margin-top: 4vh;
     width: 100%;
