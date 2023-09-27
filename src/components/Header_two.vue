@@ -165,40 +165,40 @@ input {
     font-size: 1.5rem;
   }
   .heading3 {
-    padding-top: 1vh;
-    padding-left: 9vh;
+    padding-top: 1.5vh;
+    padding-left: 16vh;
     font-size: 1.5rem;
     width: 80vh;
     color: rgba(0, 0, 0, 0.799);
   }
   .Registration {
-    width: 60vh;
+    width: 77vh;
     height: 44.99vh;
     backdrop-filter: blur(10px);
-    margin-left: 100vh;
+    margin-left: 99vh;
     margin-top: 0.1vh;
     border-radius: 1.5vh;
     border: solid #fff;
   }
 
   .btn-info {
-    width: 45vh;
-    height: 5.5vh;
+    width: 55vh;
+    height: 6.5vh;
     margin-top: 2vh;
   }
   h4 {
     color: rgba(0, 0, 0, 0.799);
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     font-weight: 600;
     padding-left: 5px;
     
   }
   form {
-    margin-left: 6vh;
+    margin-left:10vh;
   }
   input {
-    width: 45vh;
-    height: 5.5vh;
+    width: 55vh;
+    height: 6.5vh;
     border-radius: 10px;
     border: solid 1px;
     font-size: 1rem;
