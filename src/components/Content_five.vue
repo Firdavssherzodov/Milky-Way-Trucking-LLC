@@ -114,6 +114,13 @@ p {
     margin-top: 156.5vh;
  }
  }
+ @media (min-width:576px) and (max-width: 768px) {
+    .footer_section{
+    width: 175.5vh;
+  
+ }
+ }
+
 
 
 </style>

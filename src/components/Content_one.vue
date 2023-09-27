@@ -130,7 +130,6 @@ ul {
     height: 35vh;
     margin-top: 8vh;
     margin-left: -1px;
-   
   }
   .div1 {
     width: 45%;
@@ -139,9 +138,8 @@ ul {
   .div2 {
     width: 100%;
     height: 30vh;
-margin-top: 35vh;
-margin-left: -26.5vh;
-
+    margin-top: 35vh;
+    margin-left: -26.5vh;
   }
   .div3 {
     margin: 10vh 27vh;
@@ -204,6 +202,91 @@ margin-left: -26.5vh;
     margin-top: -1vh;
     font-size: 0.7rem;
 
+    font-family: "Ubuntu", sans-serif !important;
+    font-family: "Mukta", sans-serif !important;
+  }
+  .pp1 {
+    margin-top: 2vh;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .conterner {
+    width: 176vh !important;
+    height: 50vh;
+    margin-top: 3vh;
+    margin-left: -1px;
+  }
+  .div1 {
+    width: 100%;
+    height: auto;
+  }
+  .div2 {
+    width: 100vh;
+    height: 50vh;
+    margin-top: 2vh;
+    margin-left: -30vh;
+  }
+  .div3 {
+    margin: 10vh 27vh;
+    width: 85vh;
+    height: 30vh;
+    display: none  ;
+  }
+  .h_1 {
+    font-family: "Mukta", sans-serif !important;
+    font-family: "Poppins", sans-serif !important;
+    font-family: "Rubik", sans-serif !important;
+    font-family: "Ubuntu", sans-serif !important;
+    font-weight: 500;
+    padding: 10px;
+    padding-left: 3.89vh;
+    display: none;
+  }
+  .h1 {
+    margin-left: -3vh !important;
+    font-size: 2.9rem !important;
+    font-weight: 600 !important;
+    color: black;
+  }
+  .p_1 {
+    font-family: "Ubuntu", sans-serif !important;
+    font-family: "Mukta", sans-serif !important;
+    font-size: 2vh;
+    display: none;
+    padding: 20px;
+  }
+
+  img {
+    width: 100% !important;
+    height: auto !important;
+    margin-top: -0.1vh;
+    margin-left: -2vh;
+  }
+  .h1 {
+    margin-top: -2vh;
+    padding-left: 6vh !important;
+    font-weight: 700;
+    font-family: "Mukta", sans-serif !important;
+    font-family: "Poppins", sans-serif !important;
+    font-family: "Rubik", sans-serif !important;
+    font-family: "Ubuntu", sans-serif !important;
+  }
+  .p1 {
+    margin-left: -2.5vh;
+    margin-top: -0.5vh;
+    font-size: 1.1rem !important;
+    font-family: "Ubuntu", sans-serif !important;
+    font-family: "Mukta", sans-serif !important;
+    width: 90vh;
+  }
+  br {
+    display: none;
+  }
+  ul {
+    margin-left: -4vh;
+    margin-top: -1vh;
+    font-size: 1.1rem;
     font-family: "Ubuntu", sans-serif !important;
     font-family: "Mukta", sans-serif !important;
   }

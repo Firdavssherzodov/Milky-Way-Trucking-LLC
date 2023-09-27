@@ -183,4 +183,53 @@ p {
     width: 55vh !important;
   }
 }
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .diva {
+    width: 174vh;
+    height: 85vh;
+    margin-left: -0.7vh;
+    margin-top: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+   
+  }
+
+  .border {
+    width: 53vh;
+    height: 38.5vh;
+    margin-top: 15px;
+    border-radius: 2px;
+    border-top-left-radius: 2.5vh;
+    border-bottom-right-radius: 2.5vh;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  img {
+    width: 100%;
+    height: 60%;
+    border-radius: 2px;
+  }
+
+  h2 {
+    padding-left: 2vh !important;
+    padding-top: 1.6vh;
+    font-size: 1.6rem;
+    font-family: "Mukta", sans-serif !important;
+    font-family: "Poppins", sans-serif !important;
+    font-family: "Rubik", sans-serif !important;
+    font-family: "Ubuntu", sans-serif !important;
+  }
+  br {
+    display: none;
+  }
+  p {
+    margin-top: 0.8vh;
+    font-size: 1.04rem !important;
+    font-family: "Ubuntu", sans-serif !important;
+    font-family: "Mukta", sans-serif !important;
+    width: 45vh !important;
+  }
+}
 </style>

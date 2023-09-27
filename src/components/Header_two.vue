@@ -89,67 +89,125 @@ input {
   border-bottom: none;
 }
 
-@media (min-width: 320px) and (max-width: 576px) {
+@media (min-width: 320px) and (max-width: 575.9px) {
+  .diva {
+    margin-top: 3vh;
+    width: 100% !important;
+    height: 25vh;
+    background-image: url(https://www.alhaya-medical.com/wp-content/uploads/2017/12/logistics.gif);
+    background-size: contain;
+    border: solid rgb(255, 255, 255) 0.1px;
+  }
+  .heading3,
+  span {
+    color: #fff;
+    width: 60vh;
+    color: rgba(0, 0, 0, 0.799);
+    font-size: 1rem;
+  }
+  .heading3 {
+    padding-top: 1vh;
+    padding-left: 17vh;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.799);
+  }
+  .Registration {
+    width: 60vh;
+    height: 30vh;
+    backdrop-filter: blur(10px);
+    margin-left: 0.01vh;
+    margin-top: 0.01vh;
+  }
 
+  .btn-info {
+    width: 44.5vh;
+    height: 4.5vh;
+    margin-top: 1vh;
+  }
+  h4 {
+    color: rgba(0, 0, 0, 0.799);
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding-left: 5px;
+  }
+  form {
+    margin-left: 7.5vh;
+    margin-top: -1vh;
+  }
+  input {
+    width: 45vh;
+    height: 4.5vh;
+    border-radius: 10px;
+    border: solid 1px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding-left: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
     .diva {
-  margin-top: 3vh;
-  width: 100% !important;
-  height: 25vh;
-  background-image: url(https://www.alhaya-medical.com/wp-content/uploads/2017/12/logistics.gif);
-  background-size: cover;
-  border: solid rgb(255, 255, 255) 0.1px;
-}
-.heading3,
-span {
-  color: #fff;
-  width: 60vh;
-  color: rgba(0, 0, 0, 0.799);
-  font-size: 1rem;
-}
-.heading3 {
-  padding-top: 1vh;
-  padding-left: 17vh;
-  font-size: 1rem;
-  color: rgba(0, 0, 0, 0.799);
-}
-.Registration {
-  width: 60vh;
-  height: 30vh;
-  backdrop-filter: blur(10px);
-  margin-left: 0.01vh;
-  margin-top: 0.01vh;
- 
- 
-}
+    margin-top: 3vh;
+    width: 175.5vh !important;
+    height: 45.3vh;
+    background-image: url(https://www.alhaya-medical.com/wp-content/uploads/2017/12/logistics.gif);
+    background-size: cover;
+    border: solid rgb(255, 255, 255) 0.1px;
+  }
+  .heading3,
+  span {
+    color: #fff;
+    width: 60vh;
+    color: rgba(0, 0, 0, 0.799);
+    font-size: 1.5rem;
+  }
+  .heading3 {
+    padding-top: 1vh;
+    padding-left: 9vh;
+    font-size: 1.5rem;
+    width: 80vh;
+    color: rgba(0, 0, 0, 0.799);
+  }
+  .Registration {
+    width: 60vh;
+    height: 44.99vh;
+    backdrop-filter: blur(10px);
+    margin-left: 100vh;
+    margin-top: 0.1vh;
+    border-radius: 1.5vh;
+    border: solid #fff;
+  }
 
-.btn-info {
-  width: 44.5vh;
-  height: 4.5vh;
-  margin-top: 1vh;
-}
-h4 {
-  color: rgba(0, 0, 0, 0.799);
-  font-size: 0.7rem;
-  font-weight: 600;
-  padding-left: 5px;
-}
-form {
-  margin-left:7.5vh;
-  margin-top: -1vh;
-}
-input {
-  width: 45vh;
-  height: 4.5vh;
-  border-radius: 10px;
-  border: solid 1px;
-  font-size: 0.8rem;
-  font-weight: 500;
-  padding-left: 15px;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: none;
-}
-
+  .btn-info {
+    width: 45vh;
+    height: 5.5vh;
+    margin-top: 2vh;
+  }
+  h4 {
+    color: rgba(0, 0, 0, 0.799);
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-left: 5px;
+    
+  }
+  form {
+    margin-left: 6vh;
+  }
+  input {
+    width: 45vh;
+    height: 5.5vh;
+    border-radius: 10px;
+    border: solid 1px;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-left: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+  }
 }
 </style>

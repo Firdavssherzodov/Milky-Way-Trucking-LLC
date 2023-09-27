@@ -86,7 +86,6 @@ button {
     height: 40vh;
     margin-left: 0;
     margin-top: 30vh;
- 
   }
   .div2 {
     border: solid;
@@ -126,6 +125,60 @@ button {
     margin-left: 22vh;
     margin-top: 1vh;
     font-size: 0.7rem !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .diva {
+    width: 175.5vh;
+    height: 60vh;
+    margin-left: 0;
+  
+ 
+  }
+  .div2 {
+   
+    margin-top: -0.5vh;
+    margin-left: 23.5vh;
+    width:75vh;
+    height: 50vh;
+  }
+  .div1 {
+    width: 75.5vh;
+  }
+  img {
+    width: 100%;
+    height: 90;
+    margin-top: 2.7vh;
+    border-top-left-radius: 2.5vh;
+    border-bottom-right-radius: 2.5vh;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  h1 {
+    padding-left: 2vh !important;
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-top: 1vh;
+    font-family: "Mukta", sans-serif !important;
+    font-family: "Poppins", sans-serif !important;
+    font-family: "Rubik", sans-serif !important;
+    font-family: "Ubuntu", sans-serif !important;
+  }
+  p {
+    padding-left: 0vh !important;
+    font-size: 1.26rem !important;
+    margin-top: 2vh;
+    font-family: "Ubuntu", sans-serif !important;
+    font-family: "Mukta", sans-serif !important;
+    width: 85vh;
+  }
+  button {
+    width: 23vh;
+    height: 6vh;
+    margin-left: 2vh;
+    margin-top: 1vh;
+    font-size: 1rem !important;
   }
 }
 </style>
