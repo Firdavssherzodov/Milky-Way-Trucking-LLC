@@ -87,7 +87,7 @@
 
 img {
     width: 100%;
-    height: 65%;
+    height: 60%;
     border-top-left-radius: 2.5vh;
     border-bottom-right-radius: 2.5vh;
     border-top-right-radius: 5px;
@@ -97,7 +97,8 @@ img {
 h2 {
     padding-left: 2vh !important;
     padding-top: 1vh;
-    font-size: 2rem;
+    font-size: 2.2vh;
+  
     font-family: 'Mukta', sans-serif !important;
     font-family: 'Poppins', sans-serif !important;
     font-family: 'Rubik', sans-serif !important;
@@ -105,8 +106,10 @@ h2 {
 }
 
 p {
-    padding-left: 2vh !important;
-    font-size: 20px !important;
+ 
+    font-size: 1.55vh !important;
     font-family: 'Ubuntu', sans-serif !important;
     font-family: 'Mukta', sans-serif !important;
-}</style>
+
+}
+</style>

@@ -2,9 +2,9 @@
   
     <div>
         <div class="diva">
-<h1 class="heading3">Propelled by ambition
+<h1 class="heading3">GET A FREE INSTANT QUOTE OR 
     <br>
-<span class="span1">and green methanol</span>
+<span class="span1">CALL NOW (929) 566-5040</span>
 </h1>
 <p class="fs-5 text-light">Learn more about our journey towards net zero by 2040.</p>
 <button type="button" class="btn btn-light btn1">Learn more</button>

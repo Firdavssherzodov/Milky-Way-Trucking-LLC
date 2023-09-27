@@ -3,7 +3,7 @@
 
         <!-- header section end -->
         <!-- contact section start -->
-        <div class="contact_section layout_padding">
+        <div class="contact_section layout_padding" >
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6 padding_0">

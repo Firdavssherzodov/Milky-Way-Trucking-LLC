@@ -1,16 +1,18 @@
 
 <template>
+<Header></Header>
+
     <div class="conterner">
 <div class="div1">
 <h1 class="p-4 h1">What is Inland Transportation?</h1>
-<p class="p-2 p1">For logistics to be efficient, they often require a combination of transport options, <br> known as intermodal transport. Inland transportation describes all logistics transport <br> activities that go over land. This includes:</p>
+<p class=" p1">For logistics to be efficient, they often require a combination of transport options, <br> known as intermodal transport. Inland transportation describes all logistics transport <br> activities that go over land. This includes:</p>
 
 <ul>
     <li>Road Freight</li>
     <li>Train Freight</li>
     <li>Inland Water Transport</li>
 </ul>
-<p class="p-3 p1">Covering truck, rail and barge, our Inland Transportation Services are designed to get <br> your goods to their destination in a shorter time – your goods will remain in the same <br> shipping container they were packed in at their origin.</p>
+<p class=" p1">Covering truck, rail and barge, our Inland Transportation Services are designed to get <br> your goods to their destination in a shorter time – your goods will remain in the same <br> shipping container they were packed in at their origin.</p>
 </div>
 
 
@@ -26,6 +28,7 @@
 </template>
 
 <script setup>
+import Header from './header.vue';
 </script>
 
 <style scoped>
@@ -47,7 +50,7 @@
     height: 40vh;
 }
 .div3{
-    margin: auto 27vh;
+    margin: 10vh 27vh;
     width: 85vh;
     height: 30vh;
 }
@@ -56,15 +59,22 @@
     font-family: 'Poppins', sans-serif !important;
     font-family: 'Rubik', sans-serif !important;
     font-family: 'Ubuntu', sans-serif !important;
-padding: 20px;
+    font-weight: 500;
+padding: 10px;
+padding-left: 3.89vh;
+}
+.h1{
+    margin-left: 2.7vh !important;
+    font-size: 4vh !important;
 }
 .p_1{
     font-family: 'Ubuntu', sans-serif !important;
     font-family: 'Mukta', sans-serif !important;
-    font-size: 20px;
+    font-size: 2vh;
    
     padding: 20px;
 }
+
 img{
     width: 100% !important;
     height: 40vh !important;
@@ -84,13 +94,13 @@ font-family: 'Ubuntu', sans-serif !important;
 }
 .p1{
     padding-left: 5vh !important;
-    font-size: 20px !important;
+    font-size: 1.63vh !important;
     font-family: 'Ubuntu', sans-serif !important;
     font-family: 'Mukta', sans-serif !important;
 }
 ul{
     padding-left: 7vh;
-    font-size: 20px;
+    font-size: 1.63vh;
     font-family: 'Ubuntu', sans-serif !important;
     font-family: 'Mukta', sans-serif !important;
 }

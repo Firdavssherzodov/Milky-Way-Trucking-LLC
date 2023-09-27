@@ -43,8 +43,8 @@ border-top-left-radius: 2.5vh;
   border-bottom-left-radius: 5px;
 }
 h1{
-padding-left: 5vh !important;
-font-size: 3.2rem;
+padding-left: 7vh !important;
+font-size: 3.5vh;
 font-family: 'Mukta', sans-serif !important;
 font-family: 'Poppins', sans-serif !important;
 font-family: 'Rubik', sans-serif !important;
@@ -52,7 +52,7 @@ font-family: 'Ubuntu', sans-serif !important;
 }
 p{
     padding-left: 5vh !important;
-    font-size: 21px !important;
+    font-size: 1.8vh !important;
     font-family: 'Ubuntu', sans-serif !important;
     font-family: 'Mukta', sans-serif !important;
 }
@@ -60,7 +60,7 @@ button{
     
     width: 15vh;
     height: 5vh;
-    margin-left:5vh;
+    margin-left:7vh;
     margin-top: 3vh;
 }
 </style>
