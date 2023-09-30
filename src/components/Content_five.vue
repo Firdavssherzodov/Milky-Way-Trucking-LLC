@@ -18,7 +18,8 @@
           <div class="col-md-6 padding_0">
             <div class="bg_6">
               <div class="mail_section">
-                <input
+             <form>  
+              <input
                   type=""
                   class="mail_text"
                   placeholder="Name"
@@ -30,19 +31,14 @@
                   placeholder="Phone Number"
                   name="Phone Number"
                 />
-                <input
-                  type=""
-                  class="mail_text"
-                  placeholder="Name"
-                  name="Name"
-                />
-                <textarea
-                  class="massage_text"
-                  placeholder="Email"
-                  rows="5"
-                  id="comment"
-                  name="Email"
-                ></textarea>
+            
+               <input type="email"
+               class="mail_text"
+               name="Email Address"
+               placeholder="Email Address"
+               >
+               <button class="btn btn-primary my-4 px-5 rounded-pill"> Submit </button>
+              </form> 
               </div>
             </div>
           </div>

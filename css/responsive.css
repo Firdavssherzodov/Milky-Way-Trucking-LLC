@@ -332,7 +332,7 @@ padding: 126px 40px;
 .bg_5 { background: #201f33; height: auto; padding-bottom: 30px; margin-top: 30px; }
 .bg_7 { background: #ffffff; height: auto; padding-bottom: 30px; margin-top: 0px; }
 .content_text { width: 100%; }
-.bg_6 { background: #ef5051; height: auto; margin-top: 30px; padding: 0px 15px 30px 15px; }
+.bg_6 { background-image: url(../images/Milky\ Background.jpg); height: auto; margin-top: 30px; padding: 0px 15px 30px 15px; }
 .mail_section { width: 100%; margin-top: 0px; padding-left: 0px; } 
 .Subscribe_text a { width: 150px; }
 .contact_text { padding-top: 0px; }
