@@ -1,5 +1,7 @@
 <template>
   <div>
+
+    
     <!-- contact section start -->
     <div class="contact_section layout_padding">
       <div class="container-fluid">
@@ -45,6 +47,7 @@
         </div>
       </div>
     </div>
+
     <!-- contact section end -->
   </div>
 </template>
