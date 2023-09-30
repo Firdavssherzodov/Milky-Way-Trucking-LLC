@@ -36,12 +36,6 @@
             <p>Whatever your business needs, you can choose a <br> service that best fits you, and enjoy a seamless <br>
                 experience regardless of the product selection.</p>
         </div>
-        <div   >
-            <img src="https://www.maersk.com/~/media_sc9/maersk/shared-files/icons/positive/environmental-friendly_pictogram.svg?w=1000&hash=C3FBF71FA485AD0D91B5B2446941684E"
-                alt="">
-            <h4>Choice of service and products</h4>
-            <p>Whatever your business needs, you can choose a <br> service that best fits you, and enjoy a seamless <br>
-                experience regardless of the product selection.</p>
         </div>
     </div>
 </template>
@@ -64,25 +58,4 @@ img {
     margin-left: 17.5vh;
 }
 
-h4 {
-    font-weight: 400;
-    font-family: 'Mukta', sans-serif !important;
-    font-size: 2.5vh;
-    padding-left: 9.5vh;
-}
-
-p {
-    
-    font-family: 'Ubuntu', sans-serif !important;
-    font-size: 1.8vh;
-    padding-left: 5vh;
-}
-
-.contaner {
-    width: 150vh;
-    height: 80vh;
-    margin-left: 25vh;
-    margin-top: -4vh;
-
-}
 </style>

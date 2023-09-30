@@ -27,14 +27,6 @@
         collaboration with our customers.
       </p>
 
-      <button class="btn btn-info fs-6">Learn more</button>
-    </div>
-    <div class="div2">
-      <img
-        src="https://www.maersk.com/~/media_sc9/maersk/solutions/transportation-services/inland-services/images/inland-services-sustainability_720x405.png?w=1325&hash=875875A63D2F4916A27AE0538ED5DE5A"
-        alt="this is image"
-      />
-    </div>
   </div>
 </template>
 

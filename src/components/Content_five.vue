@@ -94,33 +94,4 @@
 
 <style  scoped>
 
-
-h1 {
-    font-family: 'Mukta', sans-serif !important;
-    font-family: 'Poppins', sans-serif !important;
-    font-family: 'Rubik', sans-serif !important;
-    font-family: 'Ubuntu', sans-serif !important;
-    
-}
-
-p {
-    font-family: 'Ubuntu', sans-serif !important;
-    font-family: 'Mukta', sans-serif !important;
-    
-}
-
- @media (min-width:320px) and (max-width: 576px) {
-    .footer_section{
-    margin-top: 156.5vh;
- }
- }
- @media (min-width:576px) and (max-width: 768px) {
-    .footer_section{
-    width: 175.5vh;
-  
- }
- }
-
-
-
 </style>

@@ -18,32 +18,10 @@
       </p>
     </div>
 
-    <div class="border">
-      <img
-        src="https://www.maersk.com/~/media_sc9/maersk/solutions/financial-services/value-protect/vp-cover-720x405.jpg?w=1000&hash=54100EA4FA34C782041C9EB8373044BC"
-        alt=""
-      />
-      <h2>Maersk Customs Services</h2>
-      <p>
-        Our local teams specialise in clearing cargo and <br />
-        getting quicker customs clearances for your <br />
-        perishable goods.
-      </p>
-    </div>
 
-    <div class="border">
-      <img
-        src="https://www.maersk.com/~/media_sc9/maersk/solutions/supply-chain-and-logistics/warehousing-and-distribution/warehousing-services_720x405_v9.jpg?w=1000&hash=9DCA3305253C30309D6B2FEB542ED394"
-        alt=""
-      />
-      <h2>Maersk Customs Services</h2>
-      <p>
-        Our local teams specialise in clearing cargo and <br />
-        getting quicker customs clearances for your <br />
-        perishable goods.
-      </p>
-    </div>
-
+    <!-- client section start -->
+    <div class="about_section layout_padding">
+     
     <div class="border">
       <img
         src="https://www.maersk.com/~/media_sc9/maersk/solutions/supply-chain-and-logistics/supply-chain-management/supply-chain-management-signpost-720x405.jpg?w=1000&hash=154F2D7A147D330137F9681779895E50"
@@ -56,33 +34,9 @@
         perishable goods.
       </p>
     </div>
-
-    <div class="border">
-      <img
-        src="https://www.maersk.com/~/media_sc9/maersk/solutions/transportation-services/cross-border-rail-transportation/cross-border-rail-transportation_720x405.png?w=1000&hash=BAB7C9C96265FAB872FEE8A16A51E067"
-        alt=""
-      />
-      <h2>Maersk Customs Services</h2>
-      <p>
-        Our local teams specialise in clearing cargo and <br />
-        getting quicker customs clearances for your <br />
-        perishable goods.
-      </p>
-    </div>
-
-    <div class="border">
-      <img
-        src="https://www.maersk.com/~/media_sc9/maersk/solutions/transportation-services/cross-border-rail-transportation/cross-border-rail-transportation_720x405.png?w=1000&hash=BAB7C9C96265FAB872FEE8A16A51E067"
-        alt=""
-      />
-      <h2>Maersk Customs Services</h2>
-      <p>
-        Our local teams specialise in clearing cargo and <br />
-        getting quicker customs clearances for your <br />
-        perishable goods.
-      </p>
-    </div>
-  </divv>
+        <!-- client section start -->
+<!-- // -->
+  </div>
 </template>
 
 <script setup></script>
@@ -206,30 +160,4 @@ p {
     border-bottom-left-radius: 5px;
   }
 
-  img {
-    width: 100%;
-    height: 60%;
-    border-radius: 2px;
-  }
-
-  h2 {
-    padding-left: 2vh !important;
-    padding-top: 1.6vh;
-    font-size: 1.6rem;
-    font-family: "Mukta", sans-serif !important;
-    font-family: "Poppins", sans-serif !important;
-    font-family: "Rubik", sans-serif !important;
-    font-family: "Ubuntu", sans-serif !important;
-  }
-  br {
-    display: none;
-  }
-  p {
-    margin-top: 0.8vh;
-    font-size: 1.04rem !important;
-    font-family: "Ubuntu", sans-serif !important;
-    font-family: "Mukta", sans-serif !important;
-    width: 45vh !important;
-  }
-}
 </style>
