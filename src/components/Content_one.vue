@@ -1,91 +1,91 @@
 <template>
-  <div class="conterner">
-    <div class="div1">
-      <h1 class="p-4 h1">About us</h1>
-      <p class="p1">
-        For logistics to be efficient, they often require a combination of
-        transport options, <br />
-        known as intermodal transport. Inland transportation describes all
-        logistics transport <br />
-        activities that go over land. This includes:
-      </p>
+  <div>
+<!-- // -->
+ 
+    <!-- banner section start -->
+    <div class="banner_section layout_padding">
+      <div id="main_slider" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 padding_0">
+                  <div class="bg_1">
+                    <div class="padding_left0">
+                      <h1 class="best_text">We Are<br> 
+                      Best Guide<br> 
+                      For Transports</h1>
+                      <p class="many_text">There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                      <div class="read_bt"><a href="#">Read More</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 padding_0">
+                  <div class="image_1"><img src="images/img-1.png  "></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="carousel-item">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 padding_0">
+                  <div class="bg_1">
+                    <div class="padding_left0">
+                      <h1 class="best_text">We Are<br> 
+                      Best Guide<br> 
+                      For Transports</h1>
+                      <p class="many_text">There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                      <div class="read_bt"><a href="#">Read More</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 padding_0">
+                  <div class="image_1"><img src="images/img-1.png"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 padding_0">
+                  <div class="bg_1">
+                    <div class="padding_left0">
+                      <h1 class="best_text">We Are<br> 
+                      Best Guide<br> 
+                      For Transports</h1>
+                      <p class="many_text">There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                      <div class="read_bt"><a href="#">Read More</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 padding_0">
+                  <div class="image_1"><img src="images/img-1.png"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+          <i class="fa fa-angle-left"></i>
+        </a>
+        <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+          <i class="fa fa-angle-right"></i>
+        </a>
+      </div>
+    </div>
+  <!-- banner section start -->
 
+<!-- // -->
   </div>
 </template>
 
-<script setup></script>
+<script setup>
 
-<style scoped>
-.conterner {
-  width: 150vh;
-  height: 40vh;
-  margin: 5vh auto;
-  display: flex;
+</script>
 
-  justify-content: space-around;
-}
-.div1 {
-  width: 45%;
-  height: 40vh;
-}
-.div2 {
-  width: 49%;
-  height: 40vh;
-}
-.div3 {
-  margin: 10vh 27vh;
-  width: 85vh;
-  height: 30vh;
-}
-.h_1 {
-  font-family: "Mukta", sans-serif !important;
-  font-family: "Poppins", sans-serif !important;
-  font-family: "Rubik", sans-serif !important;
-  font-family: "Ubuntu", sans-serif !important;
-  font-weight: 500;
-  padding: 10px;
-  padding-left: 3.89vh;
-}
-.h1 {
-  margin-left: 2.7vh !important;
-  font-size: 4vh !important;
-}
-.p_1 {
-  font-family: "Ubuntu", sans-serif !important;
-  font-family: "Mukta", sans-serif !important;
-  font-size: 2vh;
-
-  padding: 20px;
-}
-
-img {
-  width: 100% !important;
-  height: 40vh !important;
-  margin-top: 2.5vh;
-  border-top-left-radius: 2.5vh;
-  border-bottom-right-radius: 2.5vh;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
-.h1 {
-  padding-left: 5vh !important;
-  font-size: 3.2rem;
-  font-family: "Mukta", sans-serif !important;
-  font-family: "Poppins", sans-serif !important;
-  font-family: "Rubik", sans-serif !important;
-  font-family: "Ubuntu", sans-serif !important;
-}
-.p1 {
-  padding-left: 5vh !important;
-  font-size: 1.63vh !important;
-  font-family: "Ubuntu", sans-serif !important;
-  font-family: "Mukta", sans-serif !important;
-}
-ul {
-  padding-left: 7vh;
-  font-size: 1.63vh;
-  font-family: "Ubuntu", sans-serif !important;
-  font-family: "Mukta", sans-serif !important;
-}
+<style   scoped>
 
 </style>
