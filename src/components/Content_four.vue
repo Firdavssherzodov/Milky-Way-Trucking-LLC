@@ -1,5 +1,7 @@
 <template>
-  <Button label="Click me!"/>
+  <div>
+    
+  </div>
 </template>
 
 <script>
