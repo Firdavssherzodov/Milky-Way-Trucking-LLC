@@ -5,5 +5,11 @@ import PrimeVue from 'primeVue/config'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
  
+ 
 
-createApp(App).use(router).use(AOS).use(PrimeVue).mount('#app')
+ const app = createApp(App);
+
+app.use(router);
+app.use(AOS);
+app.use(PrimeVue);
+app.mount('#app');

@@ -13,8 +13,8 @@
 
 <script setup>
 
- import header1 from '../components/header.vue'
- import content1 from '../components/Content_one.vue'
+import header1 from '../components/header.vue'
+import content1 from '../components/Content_one.vue'
 import content2 from '../components/Content_two.vue'
 import content3 from '../components/Content_three.vue'
 import content4 from '../components/Content_four.vue'

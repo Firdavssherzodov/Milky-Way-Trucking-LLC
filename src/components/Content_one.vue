@@ -10,7 +10,7 @@
             <div class="container-fluid">
               <div class="row">
                 <div class="col-md-6 padding_0">
-                  <div class="bg_1">
+                  <div class="bg_1"  >
                     <div class="padding_left0">
                       <h1 class="best_text">We Are<br> 
                       Best Guide<br> 
@@ -20,9 +20,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6 padding_0">
-                  <div class="image_1"><img src="images/img-1.png  "></div>
-                </div>
+            
               </div>
             </div>
           </div>

@@ -7,7 +7,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-6 padding_0">
-            <div class="bg_3">
+            <div class="bg_3" data-aos="fade-right">
               <div class="padding_left0">
                 <h1 class="services_text">Our<br> 
                 <span style="color: #000;">Services</span></h1>
@@ -16,7 +16,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 padding_0">
+          <div class="col-md-6 padding_0" data-aos="fade-left">
             <div class="image_1"><img src="images/img-3.png"></div>
           </div>
         </div>
