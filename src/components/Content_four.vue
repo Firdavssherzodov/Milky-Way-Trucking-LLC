@@ -1,5 +1,3 @@
-
- 
 <template>
   <Button label="Click me!"/>
 </template>
