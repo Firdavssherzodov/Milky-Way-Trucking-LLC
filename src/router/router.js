@@ -1,7 +1,7 @@
 import { createRouter,createWebHistory } from 'vue-router'
 import AOS from "aos";
 import 'aos/dist/aos.css';
-
+import rules from '../components/Rules.vue'
 
 const route = [
 {
@@ -23,6 +23,11 @@ component: () => import ('../components/Home.vue')
   path:'/content3',
   name:'content3',
   component: () => import ('../components/Content_three.vue')
+},
+{
+  path: '/rules',
+  component : rules,
+  name: 'rules'
 }
 
 ]

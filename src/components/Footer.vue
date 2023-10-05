@@ -12,6 +12,9 @@
                 <li><a href="#">About</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Contact</a></li>
+               <router-link to="/rules"><li><a href="#">Terms&Conditions</a></li> </router-link> 
+               <router-link to="/rules"><li><a href="#">Privacy Policy</a></li> </router-link> 
+               
               </ul>
             </div>
           </div>

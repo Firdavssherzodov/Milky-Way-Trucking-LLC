@@ -14,7 +14,9 @@
               <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="logo_main" href=" # "><img class="img" src="../../images/Logo-55.png"></a>
+              <a class="logo_main" href=" # ">
+            <router-link to="/">   <img class="img" src="../../images/Logo-55.png"> </router-link> 
+              </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Blog</a>
@@ -72,4 +74,12 @@
  .nav:hover{
  color: black !important;
 }
+.header_section{
+  width: 105rem;
+  margin-left: -0vh;
+}
+ 
+  
+ 
+
 </style>
