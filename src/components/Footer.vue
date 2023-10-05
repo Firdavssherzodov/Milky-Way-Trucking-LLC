@@ -13,14 +13,14 @@
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Contact</a></li>
                <router-link to="/rules"><li><a href="#">Terms&Conditions</a></li> </router-link> 
-               <router-link to="/rules"><li><a href="#">Privacy Policy</a></li> </router-link> 
+               <router-link to="/rules"><li><a href="#">Privacy&Policy</a></li> </router-link> 
               </ul>
             </div>
           </div>
           <div class="col-lg-3">
             <h1 class="footer_taital">Location</h1>
             <div class="map_text"><a href="#"><img src="images/map-icon.png"><span class="map_icon">104 loram ipusm</span></a></div>
-            <div class="map_text"><a href="#"><img src="images/map-icon.png"><span class="map_icon">( +98 76543210 )</span></a></div>
+            <div class="map_text"><a href="#"><img src="images/map-icon.png">  <span class="map_icon">( +98 76543210 )</span></a></div>
             <div class="map_text"><a href="#"><img src="images/mail-icon.png"><span class="map_icon">demo@gmail.com</span></a></div>
           </div>
           <div class="col-lg-3">

@@ -80,8 +80,9 @@
 }
 @media (min-width: 320px) and (max-width: 576px) {
   .header_section{
- width: 55rem;
+ width: 58rem;
  margin-left: -30vh;
+ 
 }
 }
 @media (min-width: 576px) and (max-width: 768px) {
