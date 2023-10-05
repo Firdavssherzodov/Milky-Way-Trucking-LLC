@@ -60,7 +60,6 @@ a{
   color: #EF5051;
   font-weight: 500;
 }
-
 a:hover{
   color: rgb(255, 0, 208);
 }
