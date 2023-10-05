@@ -2,8 +2,8 @@
     <div>
 <Head22/>
 
-<div class="div">
-    <h1 class="h1 text-black py-4 pl-3">Terms and Conditions</h1>
+<div class="div sm-ml-2 md-ml-3">
+    <h1 class="h1 text-black py-4 pl-3 sm-py-1 sm-pl-1 md-py-3 md-pl-1">Terms and Conditions</h1>
     <p class="text-black pb-4">1. The carrier and driver jointly and separately are authorized to operate and transport his/her or their motor vehicle between its pick up location and the destination set forth on the auto transport order contract.
         <br>
         <br>
@@ -48,6 +48,41 @@ p{
     font-weight: 400;
     font-size: 1rem;
 }
+@media (min-width: 320px) and (max-width: 576px) {
+    .div{
+width: 150%;
+height: auto;
+margin-left: 1vh;
+}
+p{
+    font-weight: 400;
+    font-size: 1rem;
+}
 
+
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .div{
+width: 100%;
+height: auto;
+margin-left: 1vh;
+}
+p{
+    font-weight: 300;
+    font-size: 1rem;
+}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .div{
+width: 100%;
+height: auto;
+margin-left: 1vh;
+}
+p{
+    font-weight: 300;
+    font-size: 1rem;
+}
+}
 
 </style>

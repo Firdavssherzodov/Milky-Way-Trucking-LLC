@@ -14,7 +14,6 @@
                 <li><a href="#">Contact</a></li>
                <router-link to="/rules"><li><a href="#">Terms&Conditions</a></li> </router-link> 
                <router-link to="/rules"><li><a href="#">Privacy Policy</a></li> </router-link> 
-               
               </ul>
             </div>
           </div>
@@ -60,5 +59,8 @@
 </script>
 
 <style  scoped>
-
+@media (min-width: 320px) and (max-width: 576px) {
+.row{
+  width: 140rem !important;
+}}
 </style>
